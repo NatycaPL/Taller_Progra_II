@@ -1,0 +1,53 @@
+---
+"Visualización de Datos con Seaborn"
+author: "Natasha Pineda"
+format: pdf
+  html:
+    code-fold: true
+    theme: cosmo
+---
+
+## Visualización de datos en Seaborn
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Cargar el dataset tips
+tips = sns.load_dataset("tips")
+```
+
+```{python}
+#| label: fig-boxplot
+#| fig-cap: "Distribución de la cuenta total por día de la semana"
+
+plt.figure(figsize=(10, 6))
+sns.boxplot(x="day", y="total_bill", data=tips)
+plt.title("Distribución de la cuenta total por día de la semana")
+plt.show()
+```
+
+```{python}
+#| label: fig-scatterplot
+#| fig-cap: "Relación entre cuenta total y propina, por hora del día"
+
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x="total_bill", y="tip", hue="time", data=tips)
+plt.title("Relación entre cuenta total y propina, por hora del día")
+plt.show()
+```
+
+```{python}
+#| label: fig-histogram
+#| fig-cap: "Distribución de las propinas"
+
+plt.figure(figsize=(10, 6))
+sns.histplot(data=tips, x="tip", kde=True)
+plt.title("Distribución de las propinas")
+plt.show()
+```
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

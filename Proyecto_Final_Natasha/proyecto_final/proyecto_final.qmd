@@ -123,7 +123,5 @@ if not df.empty:
 Profe muchas gracias por la paciencia este cuatrimestre. 
 Mi reflexion es que necesito mas tiempo para practicar. Porque cuando lo logro me siento muy bien. Pero si me frustro cuando no lo puedo realizar. Espero nos puedas ayudar con videos estas vacaciones para refrescar lo aprendidio y que no se me vaya a olvidar. Saluldos
 
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+## Enlce de mi repo
+https://github.com/NatycaPL/Taller_Progra_II.git

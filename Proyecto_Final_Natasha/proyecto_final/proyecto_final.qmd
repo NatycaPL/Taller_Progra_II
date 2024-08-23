@@ -2,11 +2,15 @@
 title: "Proyecto Final"
 author: "Natasha Pineda Loaiciga"
 format:
-  html
+  pdf:
     code-fold: true
-    theme: cosmo
-
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    fig-cap: true
+jupyter: python3
 ---
+
 ##Objetivo
 Demostrar la aplicación de técnicas de web scraping, desarrollo de APIs,
 visualización y análisis de datos utilizando Selenium, Flask, Pandas y Seaborn para analizar
